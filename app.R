@@ -23,7 +23,7 @@ library(ellipse)
 library(rgl)
 
 
-load("new.RData")
+load("new_updated.RData")
 
 merge_predictions <- function(arima_df, ewma_df, garch_df, hav_df) {
   
